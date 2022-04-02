@@ -1,0 +1,29 @@
+body{
+    background-color: lightblue
+}
+
+.main-table{
+    border: 5px solid gray;
+}
+
+table{
+    width: 150px;
+    background-color: yellow;
+    border:1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+tr,td{
+    border:1px solid black;
+}
+
+.captiontext{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+tr>td>table{
+    background-color: white;
+}
