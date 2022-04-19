@@ -1,0 +1,60 @@
+@import url("https://fonts.gooogleapis.com/css2?family=Poppins&display=swap");
+
+
+/* Elementin genişlik ve yüksekliğine border ve padding değerleri dahildir. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+
+.container img {
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.animated_rainbow_1 {
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-family: Arial Black, Gadget, sans-serif;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+@keyframes animatedBackground_a {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 500px 0
+    }
+}
